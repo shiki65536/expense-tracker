@@ -62,7 +62,6 @@ function Login() {
           <FaSignInAlt /> Login
         </h1>
         <p>Login and start setting goals</p>
-        <p>sample account: guest@gmail.com/123456</p>
       </section>
 
       <section className='form'>
@@ -96,6 +95,7 @@ function Login() {
             </button>
           </div>
         </form>
+        <p>sample account: guest@gmail.com/123456</p>
       </section>
     </>
   )
