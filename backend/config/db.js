@@ -1,5 +1,8 @@
 const mongoose = require('mongoose');
 
+
+mongoose.set("strictQuery", false);
+
 const connectDB = async () => {
   try {
     const conn = await mongoose.connect('mongodb+srv://shiki:65536@cluster0.pruopa2.mongodb.net/?retryWrites=true&w=majority');
